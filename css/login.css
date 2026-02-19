@@ -5,6 +5,7 @@
     align-items: center;    
 }
 .titulo{
+    display: flex;
     background-color: rgb(141, 162, 181);           
     width: 300px;
     border-radius: 15px 15px 0 0; 
