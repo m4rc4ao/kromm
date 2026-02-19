@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>formulario de matricula</title>
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    <div class="login">
-        <form>
-            <label for="lname">Nome da mãe:</label>
+    <div class="geral">
+        <h2 class="titulo">login</h2>
+        <br>
+        <div class="log">
+            <div class="matricula">
+                <form>
+                    <label for="fname">Nome:</label>
+                    <br>
+                    <input type="text" id="fname" name="fname">
+                </form>        
+            </div>
             <br>
-            <input type="text" id="fname" name="lname">
-        </form>
-        <form>
-            <label for="lname">Nome da mãe:</label>
+            <div class="matricula">
+                <form>
+                    <label for="lname">matricula:</label>
+                    <br>
+                    <input type="text" id="lname" name="lname">
+                </form>
+            </div>
+            <div class="semconta">
+                <h3>não tem conta? <a href="#">criar uma</a></h3>
+            </div>
             <br>
-            <input type="text" id="fname" name="lname">
-        </form>                                                                                                                                             </s>
+            <button class="botao">confirmar</button>
+        </div>
     </div>
 </body>
 </html>

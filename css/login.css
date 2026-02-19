@@ -1,0 +1,19 @@
+.geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.titulo{
+    background-color: rgb(141, 162, 181);           
+    width: 300px;
+    border-radius: 15px 15px 0 0; 
+    padding: 20px;  
+}
+.log{
+    margin-top: 0;
+    background-color: rgb(116, 116, 116);           
+    width: 300px;
+    border-radius: 0 0 15px 15px; 
+    padding: 20px; 
+}
