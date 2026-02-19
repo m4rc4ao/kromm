@@ -10,7 +10,7 @@
     background-color: rgb(141, 162, 181);           
     width: 300px;
     border-radius: 15px 15px 0 0; 
-    padding: 20px;  
+    padding: 20, 20, 0, 0;  
     margin-bottom: 0;
 }
 .log{
